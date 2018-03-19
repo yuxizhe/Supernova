@@ -14,12 +14,14 @@ compile 'com.github.Aquarids:Supernova:0.0.1'
 [![import](https://jitpack.io/v/Aquarids/Supernova.svg)](https://jitpack.io/#Aquarids/Supernova)
 
 ### Usage
-Add [jsBridge.js]() to your js file. 
+Add [jsBridge.js](https://github.com/Aquarids/Supernova/blob/master/jsBridge.js) to your js file. 
 
 ```kotlin
+// at your activity
 Supernova.launchUrl(context, yoururl, yourhost)
 ```
 ```js
+// at your web
 window.supernovaBridge.call(methodName, options)
 
 ```
