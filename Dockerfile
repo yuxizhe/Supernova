@@ -1,4 +1,4 @@
-ROM ubuntu:18.04
+FROM ubuntu:18.04
 LABEL maintainer="Yorick van Zweeden"
 
 # Variables taken from variables.env
